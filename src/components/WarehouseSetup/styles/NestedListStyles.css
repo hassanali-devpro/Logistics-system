@@ -1,0 +1,28 @@
+.MuiListItemText-primary {
+  color: var(--Greyscale-Text-Body, #353a46) !important;
+  font-family: Outfit;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: 20px !important;
+}
+
+.MuiListItemText-secondary {
+  color: var(--Greyscale-Text-Caption, #8b93a7) !important;
+  font-family: Outfit;
+  font-size: 12px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: 16px !important;
+}
+
+.MuiListItemIcon-root {
+  display: flex !important;
+  align-items: center;
+  min-width: 0px !important;
+  margin-right: 4px;
+}
+
+.MuiListItemText-root {
+  margin-left: 4px !important;
+}

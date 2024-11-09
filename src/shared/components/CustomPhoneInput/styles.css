@@ -1,0 +1,20 @@
+.PhoneInputInput {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #353a46;
+  border: none;
+  border-left: 1px solid #d1d4dc !important;
+  height: 100% !important;
+  margin-right: 8px !important;
+}
+
+.PhoneInputInput:focus {
+  border: none;
+  border-left: 1px solid #d1d4dc;
+}
+
+.PhoneInput--focus {
+  border: 1px solid #1976d2 !important;
+  outline: 1px solid #1976d2 !important;
+}

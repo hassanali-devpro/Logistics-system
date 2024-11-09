@@ -1,0 +1,41 @@
+.menu-popup {
+  animation: slideUp 0.3s ease-out forwards;
+}
+
+.menu-popdown {
+  animation: slideDown 0.3s ease-in forwards;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
+
+@media (min-height: 850px) {
+  .hide-pb-50 {
+    padding-bottom: 0 !important;
+  }
+}
+
+@media (max-height: 849px) {
+  .hide-pb-50 {
+    padding-bottom: 50px !important;
+  }
+}

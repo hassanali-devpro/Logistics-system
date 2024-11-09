@@ -1,0 +1,5 @@
+.checkboxes-filter-menu-item {
+  &.MuiMenuItem-root {
+    padding: 0px 8px;
+  }
+}

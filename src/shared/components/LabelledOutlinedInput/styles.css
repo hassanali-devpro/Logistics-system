@@ -1,0 +1,15 @@
+* :focus {
+  --tw-ring-shadow: none !important;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: none !important;
+}
+
+.labelled-outlined-input {
+  align-items: flex-end !important;
+}
+
+.labelled-outlined-input .MuiFormControl-root {
+  align-items: flex-end !important;
+}

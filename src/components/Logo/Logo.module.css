@@ -1,0 +1,15 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 389.282px;
+}
+
+.logo img {
+  /*filter: invert(1);*/
+  /* color: white;
+    transform: scale(1.2); */
+  height: 120px;
+  width: 389.282px;
+}
